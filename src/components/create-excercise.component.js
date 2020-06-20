@@ -72,7 +72,7 @@ export default class CreateExcercise extends Component {
     axios.post('http://localhost:5000/excercises/add',excercise)
       .then(res => console.log(res.data))
 
-    // window.location = '/';
+    window.location = '/';
   }
 
   render() {
